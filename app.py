@@ -8,7 +8,7 @@ users = {
     "102": {"name": "Ali", "email": "ali@email.com"}
 }
 
-# 🔓 Broken Authentication
+#  Broken Authentication
 @app.route('/login', methods=['POST'])
 def login():
     data = request.json
@@ -19,7 +19,7 @@ def login():
 
     return jsonify({"token": token})
 
-# 🔓 BOLA Vulnerability
+#  BOLA Vulnerability
 @app.route('/user/<id>', methods=['GET'])
 def get_user(id):
     return jsonify(users.get(id, "User not found"))
