@@ -1,6 +1,6 @@
 # Vulnerable-API-Security-Lab
 
-## 🎯 Objective
+##  Objective
 This project demonstrates common API security vulnerabilities including:
 - Broken Authentication
 - Broken Object Level Authorization (BOLA)
@@ -39,5 +39,5 @@ This project demonstrates common API security vulnerabilities including:
 
 ---
 
-## 🧠 Learning Outcome
+##  Learning Outcome
 This project helped me understand real-world API security vulnerabilities and how attackers exploit insecure endpoints.
